@@ -1,0 +1,754 @@
+# BUILD A COMPLETE WEBSITE FOR ELEVATE HER
+
+## 1. Project Overview
+
+Act as an expert website designer, UI/UX designer, brand strategist, and full-stack web developer.
+
+Create a complete, modern, elegant, premium, responsive, and fully functional website for **Elevate Her**, a Pakistan-based women's community that empowers women to connect, learn, and grow through networking, meetups, workshops, wellness activities, and personal development experiences.
+
+**Brand name:** Elevate Her
+
+**Tagline:** Connect. Learn. Grow.
+
+**Brand mission:** To create a welcoming community where Pakistani women build meaningful relationships, discover opportunities, learn new skills, nurture their well-being, and grow together.
+
+**Target audience:** Pakistani women, including students, young professionals, entrepreneurs, working women, creatives, and women interested in wellness, friendship, networking, and personal development.
+
+**Primary website language:** English, with the option to add Urdu in the future.
+
+**Primary market:** Pakistan.
+
+The website should feel like a luxury Pakistani women's lifestyle and empowerment brand. It must be feminine, culturally relatable, visually beautiful, trustworthy, welcoming, and professional.
+
+Do not create a generic business template. Build a cohesive digital home for Elevate Her that can grow into a recognized women's community brand.
+
+The result must include a complete visual design, functional pages, real navigation, working forms, event registration workflows, and a manageable content system. Do not pretend that integrations are functional unless they have actually been configured and tested.
+
+# 2. Brand Identity and Visual Design
+
+Create a luxury, soft, feminine, editorial design inspired by premium wellness brands, modern Pakistani fashion editorials, and elegant lifestyle magazines.
+
+### Color palette
+
+Use these colors consistently throughout the website:
+
+- Blush pink: #F4DDE1
+- Warm ivory: #F8F2E8
+- Sage green: #DCE6D9
+- Soft lavender: #DCCBE5
+- Champagne beige: #E8D8C5
+- Deep cocoa brown: #493B3B
+- Pure white: #FFFFFF
+
+Use warm ivory as the primary background, blush pink for brand accents, sage green for wellness sections, lavender for creative content, and cocoa brown for readable text.
+
+### Typography
+
+- Headings: Playfair Display or Cormorant Garamond.
+- Body text: Inter or DM Sans.
+- Use elegant, editorial headings and readable body text.
+- Use uppercase lettering sparingly for small labels.
+- Avoid excessive cursive fonts.
+
+### Visual styling
+
+- Generous whitespace and clean layouts.
+- Soft, sophisticated backgrounds.
+- Elegant cards with subtle borders.
+- Refined buttons with gentle hover effects.
+- Subtle gradients and delicate botanical details.
+- Beautiful editorial photography.
+- Minimal, consistent icons.
+- Smooth scrolling and understated animations.
+- Responsive layouts that look excellent on phones and desktops.
+
+Avoid neon colors, clutter, heavy shadows, overly decorative patterns, childish graphics, and generic corporate layouts.
+
+The overall design should feel premium and inviting without being overly ornate.
+
+# 3. Authentic Pakistani Women and Cultural Relevance
+
+This is a critical requirement. Every section of the website should feel relevant to women in Pakistan.
+
+### Photography
+
+Use high-quality, realistic photographs featuring Pakistani and South Asian women with a range of natural skin tones, facial features, ages, and personal styles.
+
+Prioritize imagery of women wearing:
+- Elegant shalwar kameez.
+- Pastel Pakistani pret outfits.
+- Beautifully styled dupattas.
+- Contemporary eastern and fusion clothing.
+- Professional attire suitable for Pakistani workplaces.
+- Modern modest fashion, including hijab where appropriate.
+
+Include a range of women, from university students to professionals, entrepreneurs, mothers, creatives, and community leaders.
+
+### Photography scenarios
+
+Show Pakistani women:
+- Networking in a stylish contemporary café.
+- Attending a women's community meetup.
+- Participating in workshops and learning sessions.
+- Enjoying a sophisticated brunch or tea gathering.
+- Collaborating in modern workspaces.
+- Listening to speakers at community events.
+- Journaling, reading, and practicing everyday self-care.
+- Sharing ideas and supporting one another.
+- Attending wellness circles and creative sessions.
+
+Use natural lighting, candid expressions, realistic poses, elegant interiors, and warm, authentic moments.
+
+Choose photography that allows Pakistani visitors to see themselves represented in the community.
+
+### Cultural design direction
+
+Blend modern luxury with subtle Pakistani influences. Use understated floral motifs, tasteful textile-inspired textures, and delicate eastern design details where appropriate.
+
+Do not make the website resemble a wedding invitation, traditional clothing catalogue, or overly decorative cultural event flyer.
+
+Keep the overall look modern, refined, and editorial.
+
+Use properly licensed images. Do not misrepresent generated or stock photography as genuine Elevate Her members or real completed events.
+
+# 4. Website Navigation
+
+Create a clean navigation bar with the following links:
+
+1. Home
+2. About Us
+3. Events
+4. Community
+5. Wellness Blog
+6. Resources
+7. Contact Us
+
+Include a prominent "Join Elevate Her" button.
+
+Add:
+- A mobile-friendly navigation menu.
+- A clear active-page indicator.
+- A sticky header that does not obstruct content.
+- A consistent footer across all pages.
+- Optional member login when accounts are implemented.
+
+Every link and button must lead to a valid page or perform its stated action.
+
+# 5. Homepage Design
+
+Create an exceptionally beautiful homepage that communicates the brand immediately.
+
+## A. Announcement bar
+
+At the top, display administrator-managed announcements such as:
+- Upcoming meetup announcements.
+- Event registration openings.
+- New workshops.
+- Registration deadlines.
+- Community news.
+- New blog publications.
+
+Include a dismiss button and an optional link to the relevant page.
+
+Announcements must be editable and optionally scheduled through the admin dashboard. Never display fabricated urgent alerts.
+
+## B. Hero section
+
+Use a spacious, luxury editorial layout featuring an authentic photograph of Pakistani women connecting in an elegant, contemporary environment.
+
+**Small introductory label:** A COMMUNITY FOR WOMEN
+
+**Main headline:**
+
+"Where Women Connect, Grow & Rise Together."
+
+**Supporting copy:**
+
+"Elevate Her is a women's community creating meaningful connections, inspiring experiences, and opportunities for Pakistani women to learn, grow, and thrive together."
+
+**Primary button:** Join Our Community
+
+**Secondary button:** Explore Upcoming Events
+
+Add a subtle pastel background, elegant typography, beautiful photography, and a welcoming visual composition.
+
+## C. Our three pillars
+
+Create three refined cards:
+
+**CONNECT**
+
+"Build genuine friendships, expand your network, and find women who inspire you."
+
+**LEARN**
+
+"Discover new skills, exchange ideas, and explore opportunities for personal and professional growth."
+
+**GROW**
+
+"Nurture your confidence, well-being, and potential in a supportive community."
+
+## D. About preview
+
+Introduce the purpose of Elevate Her in a warm, authentic way.
+
+Include a short description, a relevant photograph, and a "Discover Our Story" button.
+
+## E. Upcoming events
+
+Display three to six upcoming events in elegant cards.
+
+Each card should include:
+- Event photograph.
+- Event title.
+- Date and time.
+- Location or online format.
+- Short description.
+- Category.
+- Price in PKR when applicable.
+- Registration availability based on actual data.
+- View Details button.
+- Register Now button.
+
+Add a "View All Events" link.
+
+When no upcoming events exist, show a polished empty state inviting visitors to join the newsletter for future announcements.
+
+## F. Community highlights
+
+Show photographs or approved recaps of networking meetups, workshops, brunches, speaker sessions, and wellness gatherings.
+
+Use authentic Pakistani women and realistic local settings.
+
+Do not show fabricated event photographs as genuine past experiences.
+
+## G. Wellness and personal growth
+
+Introduce the Elevate Her wellness blog with a sophisticated editorial layout.
+
+Feature topics such as:
+- Healthy daily habits.
+- Women's wellness.
+- Mindfulness and stress management.
+- Self-care.
+- Confidence.
+- Personal development.
+- Work-life balance.
+- Career growth.
+
+Add a "Read the Blog" button.
+
+## H. Community testimonials
+
+Include a testimonial carousel or elegant grid for genuine member feedback.
+
+Provide an approval workflow so only authorized, approved testimonials are published.
+
+Do not invent testimonials, reviews, or community statistics.
+
+## I. Newsletter signup
+
+**Headline:** A Little Inspiration for Your Journey.
+
+**Copy:** Receive thoughtful wellness tips, upcoming event invitations, community news, and inspiration for your personal growth.
+
+Include an email field, clear consent language, a success message, and an unsubscribe mechanism for marketing emails.
+
+## J. Final call to action
+
+**Headline:** Your Journey to Growth Starts Here.
+
+**Copy:** Meet inspiring women, discover new possibilities, and become part of a community that grows together.
+
+Buttons:
+- Join Elevate Her
+- Discover Our Events
+
+# 6. About Us Page
+
+Create a dedicated page that tells the story behind Elevate Her.
+
+Include:
+- Our story.
+- Our mission.
+- Our vision.
+- Our core values.
+- Why the community exists.
+- Who the community is for.
+- What makes Elevate Her different.
+- How members can participate.
+- The founder's introduction.
+- A CTA to join the community.
+
+Use authentic, warm, inspiring language.
+
+Provide editable fields for the founder's name, biography, and photograph. Do not invent personal details or achievements.
+
+# 7. Events and Meetups
+
+Create a complete event discovery and management experience.
+
+### Event categories
+
+- Women's networking.
+- Community meetups.
+- Workshops and learning sessions.
+- Wellness gatherings.
+- Personal development.
+- Entrepreneurship and career growth.
+- Brunches and tea gatherings.
+- Book clubs and creative activities.
+- Online events.
+- Special community celebrations.
+
+Use photographs that feel culturally familiar to Pakistani women and reflect the specific event.
+
+### Events directory
+
+Allow visitors to browse events and filter by category, date, format, and availability.
+
+Include search and sorting options.
+
+### Individual event pages
+
+Every event should have its own detailed page with:
+- Event title and cover image.
+- Full description.
+- Date and start/end time.
+- Pakistan Standard Time where applicable.
+- Venue or online format.
+- Host and speaker details.
+- Ticket prices in PKR where applicable.
+- Registration deadline.
+- Ticket types.
+- Capacity and real availability.
+- Accessibility information.
+- Cancellation and refund policy.
+- FAQs.
+- Share links.
+- Register Now button.
+
+All event details must be editable by the administrator.
+
+### Registration functionality
+
+Create a real registration flow that:
+- Collects the attendee's name and email address.
+- Collects only necessary additional information.
+- Allows ticket selection when applicable.
+- Validates form entries.
+- Prevents duplicate registrations where appropriate.
+- Prevents overbooking.
+- Shows clear success and failure messages.
+- Sends confirmation emails after successful registration.
+- Provides calendar-add links.
+- Supports configurable event reminders.
+- Supports cancellation requests according to the published policy.
+- Supports waitlists when an event is full.
+
+For paid events, show the complete cost before checkout and use a secure payment provider available to the organization.
+
+Never store raw payment card information.
+
+# 8. Community Membership
+
+Create a dedicated "Join Elevate Her" page.
+
+Explain the value of being part of the community.
+
+Potential benefits include:
+- Access to community events.
+- Networking opportunities.
+- Invitations to workshops.
+- Wellness and personal development resources.
+- Community updates.
+- Collaboration opportunities.
+- Member-only experiences if actually offered.
+
+### Membership registration
+
+Include:
+- Full name.
+- Email address.
+- Optional city.
+- Optional professional background or interests.
+- Optional preferred event types.
+- Community guidelines agreement.
+- Privacy policy acknowledgement.
+- Separate optional marketing consent.
+
+If accounts are supported, implement secure registration, email verification, login, password reset, profile management, and account deletion requests.
+
+Give members a private dashboard to view their registrations, manage profile details, and update notification preferences.
+
+Keep personal member information private. Do not publish member profiles, contact details, or attendance lists without appropriate permission.
+
+Do not introduce paid memberships or subscriptions unless explicitly configured by the owner.
+
+# 9. Announcements, Notifications, and Registration Alerts
+
+Create a reliable announcement system.
+
+Support:
+- Homepage announcement banners.
+- New event notifications.
+- Registration opening alerts.
+- Registration deadline reminders.
+- Event schedule change notices.
+- Event cancellation notices.
+- New blog announcements.
+- Community updates.
+
+### Admin controls
+
+Allow the administrator to:
+- Create announcements.
+- Edit or delete announcements.
+- Schedule publication.
+- Set expiration dates.
+- Choose priority levels.
+- Link announcements to events or articles.
+- Send approved email announcements to consenting subscribers.
+
+### Notification behavior
+
+Display clear, helpful messages such as:
+- "Registration successful!"
+- "Your registration has been confirmed."
+- "This event is currently full."
+- "Registration closes on [configured date]."
+- "A new workshop has been announced."
+
+Show actual information from the database.
+
+Never fabricate remaining tickets, attendee counts, recent registrations, or urgent deadlines.
+
+Browser push notifications should be optional and require explicit permission.
+
+# 10. Wellness Blog
+
+Build a fully functional wellness and lifestyle magazine.
+
+### Blog categories
+
+- Women's Wellness.
+- Healthy Daily Habits.
+- Self-Care.
+- Mindfulness.
+- Mental Well-Being.
+- Confidence and Personal Growth.
+- Career and Leadership.
+- Relationships and Community.
+- Lifestyle and Productivity.
+- Work-Life Balance.
+
+### Suggested initial articles
+
+Use these as initial content ideas:
+
+1. 3 Simple Habits for Better Energy and a Healthier Daily Routine.
+2. The Art of Making Time for Yourself.
+3. How to Build Meaningful Friendships as a Woman.
+4. Small Steps to Build Confidence Every Day.
+5. Finding Balance Between Work, Life, and Personal Growth.
+6. Why Women Need Supportive Communities.
+7. Simple Mindfulness Practices for Busy Days.
+8. How Networking Can Open New Opportunities.
+
+### Article layout
+
+Each article should have:
+- Featured image of Pakistani or culturally familiar South Asian women when relevant.
+- Title and subtitle.
+- Author.
+- Publication date.
+- Updated date where applicable.
+- Category.
+- Reading-time estimate.
+- Readable long-form layout.
+- Table of contents for longer articles.
+- Related articles.
+- Social-sharing options.
+- Optional newsletter signup.
+
+Add search, category filters, pagination, and featured articles.
+
+Provide a content management system that allows the owner to draft, preview, edit, schedule, publish, unpublish, and archive articles.
+
+Use evidence-informed wellness information. Do not make unsupported medical claims or present general wellness articles as personalized medical advice.
+
+# 11. Resources Library
+
+Create a dedicated resources section with useful materials for the community.
+
+Possible resources include:
+- Daily habit trackers.
+- Self-reflection worksheets.
+- Journaling prompts.
+- Wellness checklists.
+- Goal-setting worksheets.
+- Networking preparation guides.
+- Personal development reading lists.
+- Workshop notes and downloadable guides.
+
+Use a beautiful, organized layout with categories and search.
+
+Only display downloads that actually exist. Clearly identify any resources requiring membership.
+
+# 12. Contact and Collaboration Page
+
+Include:
+- A welcoming introduction.
+- Contact form.
+- Name and email fields.
+- Inquiry category.
+- Message field.
+- Partnership and collaboration inquiries.
+- Event questions.
+- Frequently asked questions.
+- Configurable social media links.
+- Configurable official email address.
+
+Validate submissions and protect against spam.
+
+Show a clear confirmation message after successful submission.
+
+Do not invent contact information or display nonfunctional contact links.
+
+# 13. Admin Dashboard
+
+Build a secure, easy-to-use dashboard so the owner can manage Elevate Her without coding.
+
+Include sections for:
+- Events.
+- Event registrations.
+- Ticket availability and waitlists.
+- Announcements.
+- Blog posts.
+- Blog categories.
+- Resources.
+- Newsletter subscribers.
+- Membership accounts if enabled.
+- Approved testimonials.
+- Contact form inquiries.
+- Homepage content.
+- Website images.
+- Navigation and footer.
+- SEO settings.
+- Email templates.
+- Website configuration.
+
+Allow authorized administrators to create, edit, publish, schedule, and archive content.
+
+Use role-based permissions, secure login, confirmation before destructive actions, and appropriate audit records.
+
+Display statistics only when supported by actual collected data.
+
+# 14. Pakistan-Specific Website Configuration
+
+Configure the website for the Pakistani market.
+
+- Primary country: Pakistan.
+- Default event timezone: Asia/Karachi, UTC+05:00.
+- Default currency for paid events: PKR (Rs.).
+- Phone number country code: +92.
+- Primary language: English.
+- Optional future language: Urdu.
+- Support event locations in different Pakistani cities.
+- Allow online and in-person event formats.
+- Use local date, time, and currency formatting where appropriate.
+
+Make all these settings editable by the owner.
+
+If Urdu is added, implement proper right-to-left page layout and suitable Urdu typography.
+
+Do not assume all members live in one city or require a physical address to register.
+
+Use Pakistan-relevant payment integrations only after confirming their availability and configuring the necessary credentials.
+
+# 15. Responsive Design and Accessibility
+
+Ensure that the website works beautifully on:
+- Mobile phones.
+- Tablets.
+- Laptops.
+- Desktop screens.
+
+Most visitors may discover Elevate Her through social media on mobile, so prioritize an excellent mobile experience.
+
+Implement:
+- Responsive layouts.
+- Accessible color contrast.
+- Readable font sizes.
+- Keyboard navigation.
+- Visible focus states.
+- Proper form labels.
+- Descriptive image alt text.
+- Accessible error messages.
+- Reduced-motion support.
+- Semantic HTML.
+- WCAG 2.2 AA accessibility targets where practical.
+
+Do not sacrifice readability for aesthetics.
+
+# 16. SEO and Social Media Integration
+
+Make the website discoverable through search engines and shareable across social platforms.
+
+Include:
+- Unique page titles.
+- Meta descriptions.
+- Clean URLs.
+- Sitemap.xml.
+- Robots.txt.
+- Canonical URLs.
+- Open Graph metadata.
+- Social-sharing preview images.
+- Article structured data.
+- Appropriate event structured data.
+- Internal links.
+- Search-friendly headings.
+- Optimized images.
+- Fast loading.
+- Social media links configured by the owner.
+
+Allow the owner to connect the actual Elevate Her social accounts.
+
+Do not invent social handles.
+
+Only use city-specific SEO after the service locations are confirmed.
+
+# 17. Security, Privacy, and Legal Pages
+
+Create editable pages for:
+- Privacy Policy.
+- Terms of Use.
+- Community Guidelines.
+- Event Cancellation and Refund Policy.
+- Cookie Policy where applicable.
+- Accessibility Statement.
+
+Include secure authentication where accounts are enabled, server-side validation, rate limiting, spam protection, access control, HTTPS, and appropriate data-retention practices.
+
+Keep API keys and secrets out of frontend code.
+
+Collect only necessary personal information and provide a clear method for privacy-related inquiries.
+
+Obtain consent where required and provide unsubscribe functionality for marketing emails.
+
+Mark legal templates for review before launch. Do not claim that unreviewed templates guarantee legal compliance.
+
+# 18. Technical Architecture
+
+Use a reliable stack supported by the selected platform.
+
+Preferred options:
+- Frontend: Next.js or React with TypeScript.
+- Styling: Tailwind CSS or a consistent component system.
+- Backend and database: Supabase or an equivalent secure backend.
+- Authentication: managed authentication if required.
+- Content management: admin dashboard or suitable CMS.
+- Transactional email: a reputable email provider.
+- Payments: a supported gateway appropriate for Pakistan.
+- Hosting: a reliable production hosting provider.
+
+Use a simpler native solution if the selected website builder already provides these features.
+
+Create secure data relationships for users, events, registrations, articles, announcements, and newsletter subscriptions.
+
+Implement database access controls so public users cannot access private member information or other attendees' records.
+
+Use environment variables for credentials.
+
+If external services require paid plans or API keys, clearly explain the setup requirements.
+
+# 19. Performance and Reliability
+
+Implement:
+- Optimized image sizes.
+- Lazy loading for below-the-fold images.
+- Efficient page rendering.
+- Reliable form handling.
+- Useful loading states.
+- Helpful error messages.
+- Empty states when no content exists.
+- A custom 404 page.
+- Broken-link checks.
+- Database backups where supported.
+- Appropriate error logging.
+- Secure deployment configuration.
+
+Avoid unnecessary libraries, excessive animations, and features that slow down the website.
+
+# 20. Brand Voice and Website Copy
+
+Use a warm, sophisticated, uplifting, and supportive tone.
+
+The brand should communicate connection, belonging, confidence, opportunity, wellness, and growth.
+
+Suggested website copy:
+
+**Hero headline:**
+"Where Women Connect, Learn & Grow."
+
+**Hero subtitle:**
+"A community for Pakistani women to find meaningful connections, discover new opportunities, and grow together."
+
+**Community section:**
+"Beautiful things happen when women support women."
+
+**Events section:**
+"Gather. Connect. Be Inspired."
+
+**Wellness section:**
+"Small Habits. Meaningful Growth."
+
+**Newsletter section:**
+"A Little Inspiration for Your Journey."
+
+**Final call to action:**
+"Your Place in Our Community Awaits."
+
+Keep all copy editable. Avoid exaggerated promises, fake testimonials, and invented organizational achievements.
+
+# 21. Final Website Requirements
+
+Build the website in stages:
+
+1. Establish the design system and brand identity.
+2. Build the homepage and responsive navigation.
+3. Create the About, Events, Community, Blog, Resources, and Contact pages.
+4. Implement event details and registration.
+5. Implement announcements and email notifications.
+6. Build the blog content management system.
+7. Implement membership features if enabled.
+8. Build the secure admin dashboard.
+9. Configure Pakistan-specific settings.
+10. Test, optimize, and prepare for deployment.
+
+Test all navigation, forms, registration flows, capacity limits, announcements, email integrations, access controls, responsive layouts, and accessibility.
+
+Use clearly labelled sample content during development and replace it with approved content before launch.
+
+Every button, link, filter, and form must function as described. Do not build fake functionality or claim successful integration without testing.
+
+At completion, provide:
+- A working website.
+- A list of completed pages and features.
+- Database and configuration instructions.
+- Required third-party integrations and credentials.
+- Deployment instructions.
+- A pre-launch checklist.
+- A list of any features that still require setup.
+
+## Final Creative Direction
+
+Create Elevate Her as a luxurious, feminine, modern Pakistani women's community website.
+
+Imagine a blend of an elegant lifestyle magazine, a premium wellness brand, and an inspiring women's networking community.
+
+The site should use beautiful pastel colors, authentic Pakistani women, refined photography, culturally familiar event settings, meaningful content, and a smooth user experience.
+
+Every visitor should feel welcomed, represented, inspired, and encouraged to become part of the community.
+
+**ELEVATE HER — CONNECT. LEARN. GROW.**

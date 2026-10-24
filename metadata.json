@@ -1,0 +1,8 @@
+{
+  "name": "Elevate Her | Pakistan's Women Community & Wellness Platform",
+  "description": "A luxury lifestyle, networking, and personal growth community empowering Pakistani women to connect, learn, and grow through curated meetups, wellness workshops, and authentic sisterhood.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
