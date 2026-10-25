@@ -96,7 +96,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="relative rounded-3xl overflow-hidden border-2 border-[#F5B5C4]/70 bg-gradient-to-br from-[#FDF0F3] to-[#F5E5D3] shadow-[0_20px_50px_rgba(217,79,112,0.18)] aspect-4/5 flex flex-col justify-end p-8 group">
               {/* Generated Real Image of Pakistani Modern Working Women in Karachi */}
               <img
-                src="/src/assets/images/karachi_women_hero_1792856473621.jpg"
+                src="/assets/images/karachi_women_hero_1792856473621.jpg"
                 alt="Modern Pakistani working women connecting over coffee and laptops in an upscale Karachi cafe patio"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -217,7 +217,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="lg:col-span-5 relative">
             <div className="rounded-3xl overflow-hidden border-2 border-[#EAD7C8] shadow-lg aspect-4/5 relative bg-white group">
               <img
-                src="/src/assets/images/karachi_women_meetup_1792856474355.jpg"
+                src="/assets/images/karachi_women_meetup_1792856474355.jpg"
                 alt="Modern Pakistani female entrepreneurs collaborating in a design studio in Clifton, Karachi"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
