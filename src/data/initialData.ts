@@ -82,7 +82,7 @@ export const initialEvents: EventItem[] = [
       'Directory access to fellow Karachi working women and leaders',
       'Curated floral gift bouquet of fresh Karachi Motia and roses'
     ],
-    imageUrl: '/src/assets/images/karachi_women_hero_1792856473621.jpg',
+    imageUrl: '/assets/images/karachi_women_hero_1792856473621.jpg',
     status: 'Upcoming',
     deadlineDate: '2026-11-12'
   },
@@ -127,7 +127,7 @@ export const initialEvents: EventItem[] = [
       'Organic herbal teas & light seasonal dried fruits/nuts',
       'Printed 7-Day Mindful Breathing pocket guide'
     ],
-    imageUrl: '/src/assets/images/karachi_women_wellness_1792856475702.jpg',
+    imageUrl: '/assets/images/karachi_women_wellness_1792856475702.jpg',
     status: 'Upcoming',
     deadlineDate: '2026-11-19'
   },
@@ -177,7 +177,7 @@ export const initialEvents: EventItem[] = [
       'Checklist of legal safeguards and digital banking precautions',
       'Artisanal coffee and savoury high-tea refreshments'
     ],
-    imageUrl: '/src/assets/images/karachi_women_summit_1792856475136.jpg',
+    imageUrl: '/assets/images/karachi_women_summit_1792856475136.jpg',
     status: 'Upcoming',
     deadlineDate: '2026-11-26'
   },
@@ -221,7 +221,7 @@ export const initialEvents: EventItem[] = [
       '14-day digital access to the session recording',
       'Invitation to the private Elevate Her WhatsApp Community Circle'
     ],
-    imageUrl: '/src/assets/images/karachi_women_wellness_1792856475702.jpg',
+    imageUrl: '/assets/images/karachi_women_wellness_1792856475702.jpg',
     status: 'Upcoming',
     deadlineDate: '2026-12-04'
   },
@@ -265,7 +265,7 @@ export const initialEvents: EventItem[] = [
       'Direct intro to guest angel investors and grant consultants',
       'Artisan high tea service'
     ],
-    imageUrl: '/src/assets/images/karachi_women_meetup_1792856474355.jpg',
+    imageUrl: '/assets/images/karachi_women_meetup_1792856474355.jpg',
     status: 'Upcoming',
     deadlineDate: '2026-12-10'
   }
@@ -284,7 +284,7 @@ export const initialBlogPosts: BlogPost[] = [
     readTimeMinutes: 5,
     featured: true,
     summary: 'When life in Pakistan feels fast-paced and demanding, true vitality begins not with dramatic overhauls, but with gentle, consistent rhythms in our morning sunlight, hydration, and evening digital boundaries.',
-    imageUrl: '/src/assets/images/karachi_women_wellness_1792856475702.jpg',
+    imageUrl: '/assets/images/karachi_women_wellness_1792856475702.jpg',
     content: [
       'In our conversations with hundreds of Pakistani working women at Elevate Her in Karachi and Lahore, one recurrent theme echoes continuously: exhaustion disguised as productivity. We balance family commitments, professional deadlines, traffic commutes, and social obligations, often leaving our own wellness at the bottom of the priority stack.',
       'Yet wellness need not be an elaborate, expensive luxury. By grounding our biological rhythms in three fundamental shifts, we can rebuild resilience from the inside out.',
@@ -311,7 +311,7 @@ export const initialBlogPosts: BlogPost[] = [
     readTimeMinutes: 7,
     featured: true,
     summary: 'For many Pakistani women, putting ourselves first feels instinctively selfish. Here is how we transform self-care from a guilty indulgence into a foundational responsibility.',
-    imageUrl: '/src/assets/images/karachi_women_hero_1792856473621.jpg',
+    imageUrl: '/assets/images/karachi_women_hero_1792856473621.jpg',
     content: [
       'Culturally, South Asian womanhood has historically celebrated self-sacrifice as the highest virtue. We applaud the mother who eats last, the sister who works until 2 AM without complaint, and the daughter who suppresses her dreams to keep everyone comfortable.',
       'At Elevate Her, we believe that an empty cup cannot pour kindness, wisdom, or love. When we operate in chronic depletion, our relationships suffer, our patience frays, and our health deteriorates silently.',
@@ -337,7 +337,7 @@ export const initialBlogPosts: BlogPost[] = [
     readTimeMinutes: 6,
     featured: false,
     summary: 'Making close friends after university or marriage can feel daunting. Here is a practical framework for creating safe, mutually inspiring connections in cities like Karachi and Lahore.',
-    imageUrl: '/src/assets/images/karachi_women_meetup_1792856474355.jpg',
+    imageUrl: '/assets/images/karachi_women_meetup_1792856474355.jpg',
     content: [
       'During school and college, friendships form almost serendipitously through proximity and shared schedules. But as we enter our mid-twenties, thirties, and beyond, adult life in Pakistan often scatters our social circles across different cities, responsibilities, and life stages.',
       'Many women share with us that while they have hundreds of acquaintances on social media or wedding guest lists, they lack friends they can call in tears at midnight or share their rawest entrepreneurial ideas with without fear of judgment.',
@@ -363,7 +363,7 @@ export const initialBlogPosts: BlogPost[] = [
     readTimeMinutes: 5,
     featured: false,
     summary: 'Confidence is not a personality trait you are born with—it is a muscle built through small, repeated promises kept to yourself.',
-    imageUrl: '/src/assets/images/karachi_women_summit_1792856475136.jpg',
+    imageUrl: '/assets/images/karachi_women_summit_1792856475136.jpg',
     content: [
       'In professional meetings and family gatherings alike, women frequently experience the quiet sting of imposter syndrome. We double-check our emails five times, second-guess our opinions in conference rooms, and apologize before asking basic clarifying questions.',
       'True confidence does not mean being the loudest voice in the room. It is the calm, grounded belief that your perspective is valid, your experience is real, and your voice deserves to take up space.',
