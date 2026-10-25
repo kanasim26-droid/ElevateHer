@@ -149,12 +149,12 @@ export const EventsPage: React.FC<EventsPageProps> = ({
                         image.dataset.fallbackApplied = 'true';
                         const category = evt.category.toLowerCase();
                         image.src = category.includes('wellness')
-                          ? 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=85'
+                          ? 'https://raw.githubusercontent.com/kanasim26-droid/ElevateHer/main/public/assets/images/karachi_women_wellness_1792856475702.jpg'
                           : category.includes('career') || category.includes('leadership')
-                          ? 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85'
+                          ? 'https://raw.githubusercontent.com/kanasim26-droid/ElevateHer/main/public/assets/images/karachi_women_summit_1792856475136.jpg'
                           : category.includes('workshop') || category.includes('networking')
-                          ? 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=85'
-                          : 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=85';
+                          ? 'https://raw.githubusercontent.com/kanasim26-droid/ElevateHer/main/public/assets/images/karachi_women_meetup_1792856474355.jpg'
+                          : 'https://raw.githubusercontent.com/kanasim26-droid/ElevateHer/main/public/assets/images/karachi_women_hero_1792856473621.jpg';
                       }}
                       loading="lazy"
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
