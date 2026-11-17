@@ -32,6 +32,19 @@ function MainApp() {
   const [selectedResource, setSelectedResource] = useState<ResourceItem | null>(null);
   const [memberModalOpen, setMemberModalOpen] = useState(false);
 
+  // Track WhatsApp outbound clicks when a WhatsApp link is present.
+  useEffect(() => {
+    const trackWhatsAppClick = (event: MouseEvent) => {
+      const target = event.target as HTMLElement | null;
+      const link = target?.closest('a[href*="wa.me"], a[href*="whatsapp.com"]');
+      if (link && typeof (window as any).fbq === 'function') {
+        (window as any).fbq('track', 'Contact', { content_name: 'WhatsApp Contact' });
+      }
+    };
+    document.addEventListener('click', trackWhatsAppClick);
+    return () => document.removeEventListener('click', trackWhatsAppClick);
+  }, []);
+
   // Scroll to top when page changes
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
