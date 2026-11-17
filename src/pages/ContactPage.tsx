@@ -59,6 +59,9 @@ export const ContactPage: React.FC = () => {
       message: message.trim()
     });
 
+    if (typeof window !== 'undefined' && typeof (window as any).fbq === 'function') {
+      (window as any).fbq('track', 'Lead', { content_name: 'Elevate Her Contact Inquiry', content_category: inquiryType });
+    }
     setSubmitted(true);
     setFullName('');
     setEmail('');
