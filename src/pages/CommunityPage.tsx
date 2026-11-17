@@ -86,6 +86,9 @@ export const CommunityPage: React.FC<CommunityPageProps> = ({
     });
 
     if (res.success) {
+      if (typeof window !== 'undefined' && typeof (window as any).fbq === 'function') {
+        (window as any).fbq('track', 'CompleteRegistration', { content_name: 'Elevate Her Community Membership' });
+      }
       setJustJoined(true);
     }
   };
