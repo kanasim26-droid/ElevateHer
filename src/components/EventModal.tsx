@@ -69,6 +69,9 @@ export const EventModal: React.FC<EventModalProps> = ({ event, onClose }) => {
     });
 
     if (res.success && res.registration) {
+      if (typeof window !== 'undefined' && typeof (window as any).fbq === 'function') {
+        (window as any).fbq('track', 'CompleteRegistration', { content_name: event.title, content_category: 'Event' });
+      }
       setConfirmedTicket(res.registration);
       setStep('ticket');
     } else {
