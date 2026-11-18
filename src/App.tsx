@@ -34,7 +34,7 @@ const PAGE_PATHS: Record<string, string> = {
 };
 
 function getPageFromPath(pathname: string): string {
-  const cleanPath = pathname.replace(/\\/+$/, '') || '/';
+  const cleanPath = pathname.replace(/\/+$/, '') || '/';
   const match = Object.entries(PAGE_PATHS).find(([, path]) => path === cleanPath);
   return match?.[0] ?? 'home';
 }
