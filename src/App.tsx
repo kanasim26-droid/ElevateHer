@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { AppProvider, useApp } from './context/AppContext';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
@@ -21,11 +21,48 @@ import { ResourceViewerModal } from './components/ResourceViewerModal';
 import { MemberModal } from './components/MemberModal';
 import { EventItem, ResourceItem } from './types';
 
+const PAGE_PATHS: Record<string, string> = {
+  home: '/',
+  about: '/about',
+  events: '/events',
+  community: '/community',
+  blog: '/blog',
+  resources: '/resources',
+  contact: '/contact',
+  admin: '/admin',
+  legal: '/legal',
+};
+
+function getPageFromPath(pathname: string): string {
+  const cleanPath = pathname.replace(/\\/+$/, '') || '/';
+  const match = Object.entries(PAGE_PATHS).find(([, path]) => path === cleanPath);
+  return match?.[0] ?? 'home';
+}
+
 function MainApp() {
   const { resources } = useApp();
 
-  const [currentPage, setCurrentPage] = useState<string>('home');
+  const [currentPage, setCurrentPageState] = useState<string>(() =>
+    getPageFromPath(window.location.pathname)
+  );
   const [legalTopic, setLegalTopic] = useState<string>('guidelines');
+
+  // Keep the visible page and browser URL in sync.
+  const setCurrentPage = useCallback((page: string) => {
+    setCurrentPageState(page);
+    const nextPath = PAGE_PATHS[page] ?? '/';
+    if (window.location.pathname !== nextPath) {
+      window.history.pushState({ page }, '', nextPath);
+    }
+  }, []);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      setCurrentPageState(getPageFromPath(window.location.pathname));
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   // Modals
   const [selectedEvent, setSelectedEvent] = useState<EventItem | null>(null);
@@ -45,7 +82,7 @@ function MainApp() {
     return () => document.removeEventListener('click', trackWhatsAppClick);
   }, []);
 
-  // Scroll to top when page changes
+  // Scroll to top when page changes.
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentPage]);
@@ -62,23 +99,19 @@ function MainApp() {
     }
   };
 
-  // If in Admin CMS page, show full-screen admin mode
+  // If in Admin CMS page, show full-screen admin mode.
   if (currentPage === 'admin') {
-    return (
-      <AdminPage onBackToSite={() => setCurrentPage('home')} />
-    );
+    return <AdminPage onBackToSite={() => setCurrentPage('home')} />;
   }
 
   return (
     <div className="min-h-screen flex flex-col bg-[#F8F2E8] text-[#493B3B] font-sans selection:bg-[#F4DDE1] selection:text-[#493B3B]">
-      {/* Sticky Header with Top Bar Contract & Announcement */}
       <Header
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
         onOpenMemberModal={() => setMemberModalOpen(true)}
       />
 
-      {/* Main Content Area */}
       <main className="flex-1">
         {currentPage === 'home' && (
           <HomePage
@@ -114,9 +147,7 @@ function MainApp() {
           <ResourcesPage onSelectResource={(res) => setSelectedResource(res)} />
         )}
 
-        {currentPage === 'contact' && (
-          <ContactPage />
-        )}
+        {currentPage === 'contact' && <ContactPage />}
 
         {currentPage === 'legal' && (
           <LegalPage
@@ -126,13 +157,11 @@ function MainApp() {
         )}
       </main>
 
-      {/* Consistent Luxury Footer */}
       <Footer
         onNavigate={(p) => setCurrentPage(p)}
         onOpenLegal={handleOpenLegal}
       />
 
-      {/* Global Interactive Modals */}
       <EventModal
         event={selectedEvent}
         onClose={() => setSelectedEvent(null)}
